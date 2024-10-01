@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.pyi
+*.pyproj
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+*.swp
+
+# JavaScript with TypeScript
+node_modules/
+dist/
+*.js
+*.js.map
+*.d.ts
+*.tsbuildinfo
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
