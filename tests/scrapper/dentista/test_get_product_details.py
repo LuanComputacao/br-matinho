@@ -6,10 +6,8 @@ from scrapper.dentista import get_product_details, get_product_details_soup
 
 BASE_URL = 'https://www.dentistaseeds.com/produtos'
 
+
 def test_get_product_details__description_exists():
-    # product_slug = 'm8-automatica'
-    # product_url = f'{BASE_URL}/{product_slug}/'
-    # soup = get_product_details_soup(product_url)
     text = """<div class="product-description user-content">
 <p><strong>Linhagem</strong>: M8 x Auto</p>
 <p><strong>THC:</strong> Geralmente varia entre 18% e 22%</p>
@@ -22,6 +20,5 @@ def test_get_product_details__description_exists():
     soup = BeautifulSoup(text, 'html.parser')
 
     details = get_product_details(soup)
-    
-    
+
     assert details is not None
