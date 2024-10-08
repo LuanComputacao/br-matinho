@@ -13,6 +13,12 @@ build/
 *.egg
 *.whl
 *.swp
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+.env
 
 # JavaScript with TypeScript
 node_modules/
